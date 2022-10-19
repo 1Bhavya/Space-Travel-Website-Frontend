@@ -1,0 +1,585 @@
+/* --------------------HOMEPAGE------------------------- */
+
+.home-body {
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0B0D17;
+  background-image: url("D:/Websites Project/Space Travel Website/assets/home/background-home-desktop.jpg");
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  left: 55px;
+  margin-top: 24px;
+}
+
+.header {
+  position: relative;
+  right: 0;
+  height: 96px;
+  margin: 40px 0 0 0;
+}
+
+.header-content {
+  display: inline-block;
+  width: 900px;
+  height: 96px;
+  position: absolute;
+  right: 0;
+  background: rgba( 255, 255, 255, 0.15 );
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  text-align: center;
+}
+
+.header-line {
+  width: 32%;
+  position: absolute;
+  top: 42px;
+  left: 160px;
+  border: 0px;
+  height: 1px;
+  background-color: white;
+  opacity: 0.4;
+}
+
+
+.home-body .header .header-content a,
+.dest-moon .header-content a,
+.dest-moon .header-content a:first-child,
+.dest-mars .header-content a,
+.dest-mars .header-content a:first-child,
+.dest-europa .header-content a,
+.dest-europa .header-content a:first-child,
+.dest-titan .header-content a,
+.dest-titan .header-content a:first-child,
+.crew-commander .header .header-content a,
+.crew-specialist .header .header-content a,
+.crew-pilot .header .header-content a,
+.crew-engineer .header .header-content a,
+.tech .header .header-content a {
+  display: inline-block;
+  margin: 0;
+  font-size: 21px;
+  font-weight: lighter;
+  margin-top: 39px;
+  width: 20%;
+  transition-duration: 0.2s;
+  text-decoration: none;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 2.35px;
+  color: white;
+}
+
+
+.home-body .header .header-content a:first-child,
+.dest-moon a:nth-child(2),
+.dest-mars a:nth-child(2),
+.dest-europa a:nth-child(2),
+.dest-titan a:nth-child(2),
+.crew-commander .header .header-content a:nth-child(3),
+.crew-specialist .header .header-content a:nth-child(3),
+.crew-pilot .header .header-content a:nth-child(3),
+.crew-engineer .header .header-content a:nth-child(3),
+.tech .header .header-content a:nth-child(4) {
+  text-decoration: underline;
+  text-underline-position: below;
+  text-underline-offset: 27px;
+  text-decoration-thickness: 5px;
+  text-decoration-style: solid;
+}
+
+.home-body .header .header-content a:hover,
+.dest-moon .header-content a:hover,
+.dest-moon .header-content a:first-child:hover,
+.dest-mars .header-content a:hover,
+.dest-mars .header-content a:first-child:hover,
+.dest-europa .header-content a:hover,
+.dest-europa .header-content a:first-child:hover,
+.dest-titan .header-content a:hover,
+.dest-titan .header-content a:first-child:hover,
+.crew-commander .header .header-content a:hover,
+.crew-specialist .header .header-content a:hover,
+.crew-pilot .header .header-content a:hover,
+.crew-engineer .header .header-content a:hover,
+.tech .header .header-content a:hover {
+  text-decoration: underline;
+  text-underline-position: below;
+  text-underline-offset: 27px;
+  text-decoration-thickness: 5px;
+  text-decoration-style: solid;
+  opacity: .5;
+}
+
+.home-body .header .header-content span,
+.dest-moon .header .header-content span,
+.dest-mars .header .header-content span,
+.dest-europa .header .header-content span,
+.dest-titan .header .header-content span,
+.crew-commander .header .header-content span,
+.crew-specialist .header .header-content span,
+.crew-pilot .header .header-content span,
+.crew-engineer .header .header-content span,
+.tech .header .header-content span {
+  font-weight: bold;
+}
+
+.intro-descp {
+  display: inline-block;
+  position: absolute;
+  top: 350px;
+  left: 170px;
+  width: 480px;
+}
+
+h5 {
+  margin: 0;
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: lighter;
+  font-size: 28px;
+  letter-spacing: 4.75px;
+}
+
+.space-word {
+  font-size: 120px;
+  color: white;
+  font-family: 'Bellefair', serif;
+}
+
+.body-text {
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 2.35px;
+  word-wrap: break-word;
+}
+
+.container-explore {
+  position: absolute;
+  top: 25rem;
+  right: 12rem;
+  background-color: white;
+  width: 224px;
+  height: 224px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.explore-text {
+  position: relative;
+  top: 96px;
+  color: #0B0D17;
+  font-family: 'Bellefair', serif;
+  font-size: 32px;
+  letter-spacing: 4px;
+  text-decoration: none;
+}
+
+.container-explore:hover {
+  position: absolute;
+  top: 21.875rem;
+  right: 8.875rem;
+  border: 50px solid rgba(255, 255, 255, 0.1);
+  background-clip: padding-box;
+  transition-duration: 0.5s;
+}
+
+/* ---------------------------- HOMEPAGE END ------------------------------- */
+
+/* ---------------------------- DESTINATION MOON ----------------------- */
+.dest-moon,
+.dest-mars,
+.dest-europa,
+.dest-titan {
+  margin: 0;
+  background-color: #0B0D17;
+}
+
+.dest-moon .your-destination .your-destination-heading,
+.dest-mars .your-destination .your-destination-heading,
+.dest-europa .your-destination .your-destination-heading,
+.dest-titan .your-destination .your-destination-heading,
+.crew-commander .crew-members .heading,
+.crew-specialist .crew-members .heading,
+.crew-pilot .crew-members .heading,
+.crew-engineer .crew-members .heading,
+.tech .tech-to-mention .tech-heading {
+  margin: 0;
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 4.75px;
+  font-size: 28px;
+  position: absolute;
+  top: 210px;
+  left: 190px;
+}
+
+.dest-moon .your-destination .your-destination-heading span,
+.dest-mars .your-destination .your-destination-heading span,
+.dest-europa .your-destination .your-destination-heading span,
+.dest-titan .your-destination .your-destination-heading span,
+.crew-commander .crew-members .heading span,
+.crew-specialist .crew-members .heading span,
+.crew-pilot .crew-members .heading span,
+.crew-engineer .crew-members .heading span,
+.tech .tech-to-mention .tech-heading span {
+  font-weight: bold;
+  opacity: 0.3;
+  margin-right: 20px;
+}
+
+.dest-moon .options-for-destination,
+.dest-mars .options-for-destination,
+.dest-europa .options-for-destination,
+.dest-titan .options-for-destination {
+  position: absolute;
+  top: 260px;
+  left: 900px;
+  width: 350px;
+  margin: 0;
+}
+
+.dest-moon .options-for-destination a,
+.dest-mars .options-for-destination a,
+.dest-europa .options-for-destination a,
+.dest-titan .options-for-destination a {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2.7px;
+  padding-right: 30px;
+  color: white;
+}
+
+.dest-moon .options-for-destination a:first-child,
+.dest-mars .options-for-destination a:nth-child(2),
+.dest-europa .options-for-destination a:nth-child(3),
+.dest-titan .options-for-destination a:nth-child(4) {
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-position: below;
+  text-underline-offset: 15px;
+}
+
+.dest-moon .options-for-destination a:hover,
+.dest-mars .options-for-destination a:hover,
+.dest-europa .options-for-destination a:hover,
+.dest-titan .options-for-destination a:hover {
+  text-decoration: underline;
+  text-underline-position: below;
+  text-underline-offset: 15px;
+  opacity: .5;
+}
+
+.dest-moon .your-destination .current-destination,
+.dest-mars .your-destination .current-destination,
+.dest-europa .your-destination .current-destination,
+.dest-titan .your-destination .current-destination {
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  top: 320px;
+  left: 900px;
+  font-family: 'Bellefair', serif;
+  font-weight: normal;
+  font-size: 100px;
+  color: white;
+}
+
+.dest-moon .your-destination .about-your-destination,
+.dest-mars .your-destination .about-your-destination,
+.dest-europa .your-destination .about-your-destination,
+.dest-titan .your-destination .about-your-destination {
+  position: absolute;
+  top: 460px;
+  left: 900px;
+  margin: 0;
+  width: 460px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #D0D6F9;
+  line-height: 32px;
+  word-wrap: break-word;
+  opacity: 0.8;
+}
+
+.dest-moon .your-destination .separating-line,
+.dest-mars .your-destination .separating-line,
+.dest-europa .your-destination .separating-line,
+.dest-titan .your-destination .separating-line {
+  margin: 0;
+  position: absolute;
+  top: 630px;
+  left: 900px;
+  width: 460px;
+  border: 1px solid #979797;
+}
+
+
+.dest-moon .your-destination .est-travel-time,
+.dest-mars .your-destination .est-travel-time,
+.dest-europa .your-destination .est-travel-time,
+.dest-titan .your-destination .est-travel-time {
+  margin: 0;
+  position: absolute;
+  top: 635px;
+  left: 1160px;
+  color: white;
+}
+
+.dest-moon .your-destination .avg-distance h4,
+.dest-moon .your-destination .est-travel-time h4,
+.dest-mars .your-destination .avg-distance h4,
+.dest-mars .your-destination .est-travel-time h4,
+.dest-europa .your-destination .avg-distance h4,
+.dest-europa .your-destination .est-travel-time h4,
+.dest-titan .your-destination .avg-distance h4,
+.dest-titan .your-destination .est-travel-time h4 {
+  margin: 12px 0;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 2.35px;
+}
+
+.dest-moon .your-destination .avg-distance h3,
+.dest-moon .your-destination .est-travel-time h3,
+.dest-mars .your-destination .avg-distance h3,
+.dest-mars .your-destination .est-travel-time h3,
+.dest-europa .your-destination .avg-distance h3,
+.dest-europa .your-destination .est-travel-time h3,
+.dest-titan .your-destination .avg-distance h3,
+.dest-titan .your-destination .est-travel-time h3 {
+  margin: 0;
+  font-family: 'Bellefair', serif;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.dest-moon .your-destination .avg-distance,
+.dest-mars .your-destination .avg-distance,
+.dest-europa .your-destination .avg-distance,
+.dest-titan .your-destination .avg-distance {
+  margin: 0;
+  position: absolute;
+  top: 635px;
+  left: 900px;
+  color: white;
+}
+
+.dest-moon .your-destination .destination-img,
+.dest-mars .your-destination .destination-img,
+.dest-europa .your-destination .destination-img,
+.dest-titan .your-destination .destination-img {
+  margin: 0;
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  width: 450px;
+  height: 450px;
+  background-color: #0B0D17;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dest-moon .your-destination .destination-img {
+  background-image: url("D:/Websites Project/Space Travel Website/assets/destination/image-moon.png");
+}
+
+.dest-mars .your-destination .destination-img {
+  background-image: url("D:/Websites Project/Space Travel Website/assets/destination/image-mars.png");
+}
+
+.dest-europa .your-destination .destination-img {
+  background-image: url("D:/Websites Project/Space Travel Website/assets/destination/image-europa.png");
+}
+
+.dest-titan .your-destination .destination-img {
+  background-image: url("D:/Websites Project/Space Travel Website/assets/destination/image-titan.png");
+}
+
+/* ------------------------------------------ DESTINATION END ---------------------------------- */
+
+/* ------------------------------------------ CREW END ---------------------------------- */
+
+.crew-commander,
+.crew-specialist,
+.crew-pilot,
+.crew-engineer {
+  margin: 0;
+  background-color: #0B0D17;
+  background-image: none;
+}
+
+.crew-commander .crew-members .about-member,
+.crew-specialist .crew-members .about-member,
+.crew-pilot .crew-members .about-member,
+.crew-engineer .crew-members .about-member {
+  margin: 0;
+  position: absolute;
+  top: 400px;
+  left: 190px;
+  width: 700px;
+}
+
+.crew-commander .crew-members .about-member .designation,
+.crew-specialist .crew-members .about-member .designation,
+.crew-pilot .crew-members .about-member .designation,
+.crew-engineer .crew-members .about-member .designation {
+  margin: 0;
+  font-family: "Bellefair", serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: white;
+  opacity: 0.5;
+}
+
+.crew-commander .crew-members .about-member .name,
+.crew-specialist .crew-members .about-member .name,
+.crew-pilot .crew-members .about-member .name,
+.crew-engineer .crew-members .about-member .name {
+  margin: 0;
+  font-family: "Bellefair", serif;
+  font-size: 56px;
+  font-weight: normal;
+  color: white;
+}
+
+.crew-commander .crew-members .about-member .about-them,
+.crew-specialist .crew-members .about-member .about-them,
+.crew-pilot .crew-members .about-member .about-them,
+.crew-engineer .crew-members .about-member .about-them {
+  margin: 0;
+  width: 500px;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #D0D6F9;
+  line-height: 32px;
+}
+
+.crew-commander .crew-members .slider-icon,
+.crew-specialist .crew-members .slider-icon,
+.crew-pilot .crew-members .slider-icon,
+.crew-engineer .crew-members .slider-icon {
+  margin: 0;
+  position: absolute;
+  top: 700px;
+  left: 190px;
+  width: 120px;
+  background-color: #0B0D17;
+}
+
+.crew-commander .crew-members .slider-icon a,
+.crew-specialist .crew-members .slider-icon a,
+.crew-pilot .crew-members .slider-icon a,
+.crew-engineer .crew-members .slider-icon a {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+  opacity: 0.2;
+}
+
+.crew-commander .crew-members .slider-icon a:first-child,
+.crew-specialist .crew-members .slider-icon a:nth-child(2),
+.crew-pilot .crew-members .slider-icon a:nth-child(3),
+.crew-engineer .crew-members .slider-icon a:nth-child(4) {
+  opacity: 1;
+}
+
+.crew-commander .crew-members .slider-icon a:hover,
+.crew-specialist .crew-members .slider-icon a:hover,
+.crew-pilot .crew-members .slider-icon a:hover,
+.crew-engineer .crew-members .slider-icon a:hover {
+  opacity: 0.7;
+}
+
+.crew-commander .crew-members .member-image,
+.crew-specialist .crew-members .member-image,
+.crew-pilot .crew-members .member-image,
+.crew-engineer .crew-members .member-image {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 850px;
+  width: 550px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.crew-commander .crew-members .member-image {
+  left: 875px;
+  background-image: url("D:/Websites Project/Space Travel Website/assets/crew/image-douglas-hurley.png");
+}
+
+.crew-specialist .crew-members .member-image {
+  left: 900px;
+  background-image: url("D:/Websites Project/Space Travel Website/assets/crew/image-mark-shuttleworth.png");
+  transform: rotateY(180deg);
+}
+
+.crew-pilot .crew-members .member-image {
+  background-image: url("D:/Websites Project/Space Travel Website/assets/crew/image-victor-glover.png");
+}
+
+.crew-engineer .crew-members .member-image {
+  background-image: url("D:/Websites Project/Space Travel Website/assets/crew/image-anousheh-ansari.png");
+}
+
+/* ------------------------------- CREW END ------------------------------- */
+
+/* ------------------------------ TECHNOLOGY END -------------------------- */
+.tech {
+  margin: 0;
+  background-image: url("D:/Websites Project/Space Travel Website/assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  ba
+}
+
+.tech .tech-to-mention .numbering {
+  position: absolute;
+  left: 190px;
+  top: 320px;
+  width: 84px;
+  height: 320px;
+  text-align: center;
+  align-items: center;
+  display: inline-grid;
+}
+
+.tech .tech-to-mention .numbering a {
+  border: 1px solid #979797;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  display: inline-grid;
+  align-items: center;
+  font-family: "Bellefair", serif;
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: white;
+}
+
+.tech .tech-to-mention .numbering a:first-child {
+  background-color: white;
+  color: black;
+}
+
+.tech .tech-to-mention .numbering a:hover {
+  border: 2px solid white;
+  background-clip: padding-box;
+}
